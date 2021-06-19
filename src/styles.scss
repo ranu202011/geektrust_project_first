@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+background-color: rgb(61,141,61); }
+
+
+.mat-card,
+.mat-table,
+.mat-header-cell,
+.mat-paginator,
+.mat-form-field,
+.mat-select-panel,
+.mat-dialog-container,
+span mat-icon svg {
+  background-color: rgb(61,141,61);
+  color: white;
+}
+
+app-trust-table mat-form-field{
+  width: 100%;
+}
+

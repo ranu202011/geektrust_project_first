@@ -1,0 +1,18 @@
+header{
+  overflow-y: hidden;
+}
+
+li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer{
+  display: flex;
+  margin: 10px;
+  justify-content:flex-start ;
+  & button{
+    margin: 10px;
+  }
+}
